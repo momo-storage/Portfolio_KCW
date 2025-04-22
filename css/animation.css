@@ -1,0 +1,76 @@
+.fade {
+    opacity: 0;
+    transition-property: opacity,transform;
+    transition-duration: 2.8s;
+    transition-timing-function: cubic-bezier(.175,.885,.32,1.275);
+}
+
+.fade-left {    
+    transform: translate3d(40px,0,0);  
+}
+.fade-right {
+    transform: translate3d(-40px,0,0);   
+}
+.fade-top {
+    transform: translate3d(0,40px,0);
+}
+.fade-up-right {
+    transform: translate3d(-40px,40px,0);
+}
+.fade-down {
+    transform: translate3d(0,-40px,0);
+}
+#video .video-section01.fade,
+#video .video-section03.fade,
+#video .video-section05.fade,
+#local-festival .fade-up.fade {
+    transition-duration: 3s;
+}
+#video .video-section02.fade,
+#video .video-section04.fade {
+    transition-duration: 2.5s;
+    transition-timing-function: cubic-bezier(.25,.25,.75,.75);
+}
+#institution .col-lg-4:first-child .card.fade {
+    transition-delay: .3s;
+}
+#institution .col-lg-4:nth-child(2) .card.fade {
+    transition-delay: .4s;
+}
+#institution .col-lg-4:nth-child(3) .card.fade {
+    transition-delay: .45s;
+}
+.fade.ani {
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+@-webkit-keyframes floating {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes floating {
+    0% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    50% {
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }

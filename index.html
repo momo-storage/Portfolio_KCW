@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.inview.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+   
+    <title>KOREA CONTENTS WEEK</title>
+  </head>
+  <body>
+    <div id="wrap">     
+
+      <!-- header -->
+      <header id="mainNav" class="topNav">
+        <div class="header--inner">          
+          <nav>
+            <ul class="nav-list">
+              <li>
+                <a href="/">
+                  <img class="logo-default img-pc" src="images/logo.png" alt="korea contents week" />
+                  <img class="img-m" src="images/logo_m.png"  alt="korea contents week" />
+                  <img  class="logo-black" src="images/logo_black.png" alt="korea contents week" />
+                </a>
+              </li>
+              <li class="kocoweek">
+                <a href="#home">KOCOWEEK
+                  <div class="line-box">
+                    <span class="line line-left"></span>
+                    <span class="line line-top"></span>
+                    <span class="line line-right"></span>
+                    <span class="line line-bottom"></span>
+                 </div>
+                </a>
+              </li>
+              <li><a href="#video">느끼다
+                  <div class="line-box">
+                    <span class="line line-left"></span>
+                    <span class="line line-top"></span>
+                    <span class="line line-right"></span>
+                    <span class="line line-bottom"></span>
+                </div>
+              </a></li>
+              <li><a href="#contest">참여하다
+                <div class="line-box">
+                  <span class="line line-left"></span>
+                  <span class="line line-top"></span>
+                  <span class="line line-right"></span>
+                  <span class="line line-bottom"></span>
+               </div>
+              </a></li>
+              <li><a href="#local-festival">만나다
+                <div class="line-box">
+                  <span class="line line-left"></span>
+                  <span class="line line-top"></span>
+                  <span class="line line-right"></span>
+                  <span class="line line-bottom"></span>
+               </div>
+              </a></li>
+              <li><a href="#institution">소개하다
+                <div class="line-box">
+                  <span class="line line-left"></span>
+                  <span class="line line-top"></span>
+                  <span class="line line-right"></span>
+                  <span class="line line-bottom"></span>
+               </div>
+              </a></li>
+              <li class="lang-router">
+                <a class="ico-lang" href="#">
+                  <img class="ico-default" src="images/ico_lang.png" alt="Language" />
+                  <img class="ico-black" src="images/ico_langB.png" alt="Language" />
+                </a>
+                <div class="lang-select">
+                  <ul>
+                    <li><a href="#">한국어</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">中文</a></li>
+                    <li><a href="#">العربية</a></li>
+                    <li><a href="#">Español</a></li>
+                    <li><a href="#">Pусский</a></li>
+                    <li><a href="#">Français</a></li>
+                    <li><a href="#">Deutsch</a></li>
+                    <li><a href="#">日本語</a></li>
+                    <li><a href="#">Tiếng Việt</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="header--menu">
+              <img class="ham-default" src="images/ico_hambuger.png" alt="">
+              <img class="ham-black" src="images/ico_hambuger_black.png" alt="">
+            </div>
+          </nav>         
+        </div> <!-- header--inner-->
+        <div class="nav-mobile">
+          <div class="nav-mobile-top">
+            <a class="nav-mobile-logo" href="#">
+              <img class="mobile-top-logo" src="images/logo_black.png" alt="korea contents week" />
+            </a>
+            <span class="header--close">
+              <img src="images/header_close.png" alt="" />
+            </span>
+          </div>
+         
+          <div class="nav-mobile-bottom">
+            <ul class="nav-mobile-menu">
+              <li class="nav-item">
+                  <a class="nav-link" href="#home">KOCOWEEK</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#video">느끼다</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contest">참여하다</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#local-festival">만나다</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#institution">소개하다</a>
+              </li>
+            </ul>
+
+            <div class="nav-mobile-sns">
+              <div class="promotion">
+                <a href="#"><img src="images/promotion_img01_m.png" alt="해외문화홍보원" /></a>            
+                <a href="#"><img src="images/promotion_img02_m.png" alt="KOREA.net" /></a>            
+              </div>
+
+              <div class="btn-sns-area">
+                <div class="btn-sns">
+                  <a class="btn btn-primary" href="#">
+                    <i><img src="images/ico_youtube.png" alt="" /></i>
+                    YouTube
+                  </a>  
+                  <a class="btn btn-warning" href="#">
+                    <i><img src="images/ico_intagram.png" alt="" /></i>
+                    Instagram
+                  </a>
+                  <a class="btn btn-primary mb-0" href="#">
+                    <i><img src="images/ico_facebook.png" alt="" /></i>
+                    Facebook
+                  </a>      
+                </div>
+                <div class="btn-sns">
+                  <a class="btn btn-warning" href="#">
+                    <i><img src="images/ico_flickr.png" alt="" /></i>
+                    Flickr
+                  </a>  
+                  <a class="btn btn-primary" href="#">
+                    <i><img src="images/ico_blog.png" alt="" /></i>
+                    Blog
+                  </a>
+                  <a class="btn btn-warning mb-0" href="#">
+                    <i><img src="images/ico_blogger.png" alt="" /></i>
+                    Blogger
+                  </a>      
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </header>
+      <!--// header -->
+
+      <div id="main">
+        <section class="home" id="home">
+          <div class="inner">
+            <div class="home-txt">
+              <h2 class="font-weight-bold mb-3">
+                <span>KOREA CONTENTS WEEK</span>
+              </h2>
+              <h3 class="font-weight-bold">The Door to Serendipity</h3>
+              <!-- <pre>
+  코리아 콘텐츠 위크(코코윅)는 해외에 한국문화를
+  더 쉽고 재밌게 알리기 위해 '해외문화홍보원' 주관으로 준비되었습니다. 
+  재외한국문화원(현지)과 국내소속기관과 함께 온라인콘텐츠 및 이벤트가 진행 됩니다. 
+  많은 관심과 방문 부탁드립니다.</pre> -->
+              <p class="d-inline-block">2021. 10월~ 2022. 4월</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="intro" class="intro">
+          <div class="inner">
+           <div class="intro-box">
+              <div class="intro-img0">
+                <img class="img-pc fade-right fade" src="images/intro_img01.png" alt="" />
+                <img  class="img-m" src="images/intro_img01_m.png" alt="" />
+              </div>
+              <div class="text-left intro-txt fade-top fade">
+                <h2 class="img-pc"><img src="images/intro_txt1.png" alt="똑똑똑" /></h2>
+                <h2 class="img-m"><img src="images/intro_txt1_m.png" alt="똑똑똑" /></h2>
+<p>한국문화를 알리기 위한 대표 브랜드로
+전 세계 주요 거점에서 한국문화를 집중적으로 소개하는 첫 걸음입니다. 
+세계인들이 한국문화를 통해 발견할 수 있는 뜻밖의 즐거움으로
+모두의 일상에 즐거움과 위로가 되길 바라는 마음을 담았습니다.
+해외에 한국문화를 더 쉽고 재밌게 알리기 위해 
+다양한 온라인콘텐츠와 이벤트를 준비했습니다.
+‘KOCOWEEK’에 많은 관심과 방문 부탁드립니다.</p>
+              </div>
+              <div class="intro-img1">
+                <img class="img-pc fade-left fade" src="images/intro_img02.jpg" alt="" />
+                <img class="img-m" src="images/intro_img02_m.png" alt="" />
+              </div>
+           </div>
+          </div>
+        </section>
+
+        <section id="video" class="video">		
+          <div class="inner">					
+            <div class="text-center fade-down fade">
+              <h2 class="section-heading font-weight-bold mb-5">느끼다 ; KOREA CONTENTS</h2>
+              <h3 class="section-subheading font-weight-bold">멋 · 숨 · 삶 · 얼 · 꿈</h3>
+              <p class="section-subtxt">온라인콘텐츠를 통해 한국의 매력을 느껴보세요!
+KOCOWEEK의 5가지 대표 영상을 소개합니다.</p>
+            </div>
+            <div class="row video-section01 fade-left fade">
+              <div class="mr-5 text-right video-txt">
+                <img class="img-pc" src="images/video_txt1.png" alt="멋 상상 그 이상의 신비로움" />
+                <img class="img-m" src="images/video_txt1_m.png" alt="멋 상상 그 이상의 신비로움" />
+              </div>
+              <div class="video-item video-item01">
+                <a href="#" target="_blank">
+                  <div class="video-hover">
+                    <div class="video-hover-content">
+                      <img src="images/ico_play.png" alt="재생 버튼" />
+                    </div>
+                  </div>
+                  <img class="video-img" src="images/video_img01.jpg" alt="영상 커버 이미지" />
+                </a>
+              </div>
+            </div>
+            <div class="pattern01 pattern"><img src="images/patterns01.png" alt=""></div>
+
+            <div class="row video-section02 fade-down fade">
+              <div class="mr-5 video-item video-item02">
+                <a href="#" target="_blank">
+                  <div class="video-hover">
+                    <div class="video-hover-content">
+                      <img src="images/ico_play.png" alt="재생 버튼" />
+                    </div>
+                  </div>
+                  <img class="video-img" src="images/video_img02.jpg" alt="영상 커버 이미지" />  
+                </a>            
+              </div>
+              <div class="video-txt">
+                <img class="img-pc" src="images/video_txt2.png" alt="숨 장인의 기운을 담아낸 숨결 그리고 한 숨" />
+                <img class="img-m" src="images/video_txt2_m.png" alt="숨 장인의 기운을 담아낸 숨결 그리고 한 숨" />
+              </div>
+            </div>
+            <div class="pattern02 pattern"><img src="images/patterns02.png" alt=""></div>
+
+            <div class="row video-section03 fade-right fade">
+              <div class="mr-5 text-right video-txt">
+                <img class="img-pc" src="images/video_txt3.png" alt="삶 한국의 사계절을 담은 삶 속의 힐링" />
+                <img class="img-m" src="images/video_txt3_m.png" alt="삶 한국의 사계절을 담은 삶 속의 힐링" />
+              </div>
+              <div class="video-item video-item03">
+                <a href="#" target="_blank">
+                  <div class="video-hover">
+                    <div class="video-hover-content">
+                      <img src="images/ico_play.png" alt="재생 버튼" />
+                    </div>
+                  </div>
+                  <img class="video-img" src="images/video_img03.jpg" alt="영상 커버 이미지" />
+                </a>
+              </div>
+            </div>
+            <div class="pattern03 pattern"><img src="images/patterns01.png" alt=""></div>
+
+            <div class="row video-section04 fade-down fade">
+              <div class="mr-5 video-item video-item04">
+                <a href="#" target="_blank">
+                  <div class="video-hover">
+                    <div class="video-hover-content">
+                      <img src="images/ico_play.png" alt="재생 버튼" />
+                    </div>
+                  </div>
+                  <img class="video-img" src="images/video_img04.jpg" alt="영상 커버 이미지" />
+                </a>             
+              </div>
+              <div class="video-txt">
+                <img class="img-pc" src="images/video_txt4.png" alt="얼 볼 수 없지만 알 수 있는 것" />
+                <img class="img-m" src="images/video_txt4_m.png" alt="얼 볼 수 없지만 알 수 있는 것" />
+              </div>
+            </div>
+            <div class="pattern04 pattern"><img src="images/patterns02.png" alt=""></div>
+
+            <div class="row video-section05 fade-left fade">
+              <div class="mr-5 text-right video-txt">
+                <img class="img-pc" src="images/video_txt5.png" alt="꿈 합의 민족 한국 함께의 민족 한국" />
+                <img class="img-m" src="images/video_txt5_m.png" alt="꿈 합의 민족 한국 함께의 민족 한국" />
+              </div>
+              <div class="video-item video-item05">
+                <a href="#" target="_blank">
+                  <div class="video-hover">
+                    <div class="video-hover-content">
+                      <img src="images/ico_play.png" alt="재생 버튼" />
+                    </div>
+                  </div>
+                  <img class="video-img" src="images/video_img05.jpg" alt="영상 커버 이미지" />
+                </a>               
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="contest" id="contest">
+          <div class="inner">
+            <div class="text-center fade-down fade">
+              <h2 class="section-heading font-weight-bold mb-5">
+                참여하다 ; KOCOWEEK EVENT
+              </h2>
+              <h3 class="section-subheading font-weight-bold">진행중인 이벤트&공모전</h3>
+            </div>
+             <!-- 슬라이드 -->
+            <div class="contest-slider-wrap con">
+              <div class="contest-slider">                
+                <div class="slider-item video-item">
+                  <a class="" href="#">
+                    <img class="video-img" src="images/img_slide_ko_01.png" alt="슬라이드 이미지1" />
+                    <span>View more →</span>
+                  </a>
+                </div>
+                <div class="slider-item video-item">
+                  <a href="#">
+                    <img class="video-img" src="images/img_slide02.jpg" alt="슬라이드 이미지2" />
+                    <span>View more →</span>
+                  </a>
+                </div>
+                <div class="slider-item video-item">
+                  <a href="#">
+                    <img class="video-img" src="images/img_slide01.jpg" alt="슬라이드 이미지3" />
+                    <span>View more →</span>
+                  </a>
+                </div>
+                <div class="slider-item video-item">
+                 <a href="#">
+                   <img class="video-img" src="images/img_slide04.jpg" alt="슬라이드 이미지4" />
+                   <span>View more →</span>
+                  </a>
+                </div>
+                <div class="slider-item video-item">
+                  <a href="#">
+                    <img class="video-img" src="images/img_slide01.jpg" alt="슬라이드 이미지5" />
+                    <span>View more →</span>
+                  </a>
+                </div>
+                <div class="slider-item video-item">
+                  <a href="#">
+                    <img class="video-img" src="images/img_slide02.jpg" alt="슬라이드 이미지6" />
+                    <span>View more →</span>
+                  </a>
+                </div>                
+              </div>
+
+             <div class="btn-wrap">
+                <div class="inner">
+                  <div class="prev"><img src="images/slide_prev.png" alt=""></div>
+                  <div class="next"><img src="images/slide_next.png" alt=""></div>
+                </div>
+             </div>
+            </div>
+        <!--// 슬라이드-->
+
+          </div>
+        </section>
+
+        <section class="local-festival" id="local-festival">	
+          <div class="inner">
+            <div class="text-center">
+              <div class="fade-down fade">
+                <h2 class="section-heading font-weight-bold mb-5">만나다 ; 해외KCC축제</h2>
+                <h3 class="section-subheading font-weight-bold">한국문화를 각국 현지에서 만날 수 있는 기회!</h3>
+                <p class="section-subtxt">7개국의 한국문화원에서 그 축제를 함께 즐겨보세요!</p>
+              </div>
+      
+              <div class="text-center mx-auto fade-up fade">
+                <ul class="tabs nav justify-content-center">
+                  <li class="nav-item active" data-tab="nation1">
+                    <img class="video-img" src="images/icon_la.png" alt="미국LA" />
+                    미국LA
+                  </li>
+                  <li class="nav-item"  data-tab="nation2">
+                    <img class="video-img" src="images/icon_ru.png" alt="러시아" />
+                   러시아
+                  </li>
+                  <li class="nav-item"  data-tab="nation3">
+                    <img class="video-img" src="images/icon_vi.png" alt="베트남" />
+                   베트남
+                  </li>
+                  <li class="nav-item"  data-tab="nation4">
+                    <img class="video-img" src="images/icon_ho.png" alt="홍콩" />
+                   홍콩
+                  </li>
+                  <li class="nav-item"  data-tab="nation5">
+                    <img class="video-img" src="images/icon_ka.png" alt="카자흐스탄" />
+                   카자흐스탄
+                  </li>
+                  <li class="nav-item"  data-tab="nation6">
+                    <img class="video-img" src="images/icon_be.png" alt="벨기에" />
+                   벨기에
+                  </li>
+                  <li class="nav-item"  data-tab="nation7">
+                    <img class="video-img" src="images/icon_fr.png" alt="프랑스" />
+                   프랑스
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane show active video-item" id="nation1">
+                    <a href="#" target="_blank">
+                      <div class="video-hover">
+                        <div class="video-hover-content">
+                          <img src="images/ico_play.png" alt="재생 버튼" />
+                        </div>
+                      </div>
+                      <img class="video-img" src="images/nation_img1.png" alt="미국LA 영상" />
+                      <!-- <figcaption>
+                        <span>▪ 미국 LA</span> 한국 전통 문화와 현대 문화와의 조우 Tradition & New Thing
+                      </figcaption> -->
+                    </a>
+                  </div>
+                  <div class="tab-pane video-item" id="nation2">
+                    <a href="#" target="_blank">
+                      <div class="video-hover">
+                        <div class="video-hover-content">
+                          <img src="images/ico_play.png" alt="재생 버튼 /">
+                        </div>
+                      </div>
+                      <img class="video-img" src="images/nation_img2_ko.png" alt="러시아 영상" />
+                      <!-- <figcaption>
+                        <span>▪ 러시아</span> 한국 전통 문화와 현대 문화와의 조우 Tradition & New Thing
+                      </figcaption> -->
+                    </a>
+                  </div>
+                  <div class="tab-pane video-item" id="nation3">
+                    <a href="#" target="_blank">
+                      <div class="video-hover">
+                        <div class="video-hover-content">
+                          <img src="images/ico_play.png" alt="재생 버튼" />
+                        </div>
+                      </div>
+                      <img class="video-img" src="images/nation_img3_ko.png" alt="베트남 영상" />
+                      <!-- <figcaption>
+                        <span>▪ 베트남</span> 한국 전통 문화와 현대 문화와의 조우 Tradition & New Thing
+                      </figcaption> -->
+                    </a>
+                  </div>
+                  <div class="tab-pane video-item" id="nation4">
+                    <a href="#" target="_blank">
+                      <div class="video-hover">
+                        <div class="video-hover-content">
+                          <img src="images/ico_play.png" alt="재생 버튼" />
+                        </div>
+                      </div>
+                      <img class="video-img" src="images/nation_img4.png" alt="홍콩 영상" />
+                      <!-- <figcaption>
+                        <span>▪ 홍콩</span> 한국 전통 문화와 현대 문화와의 조우 Tradition & New Thing
+                      </figcaption> -->
+                    </a>
+                  </div>
+                  <div class="tab-pane video-item" id="nation5">
+                    <a href="#" target="_blank">
+                      <div class="video-hover">
+                        <div class="video-hover-content">
+                          <img src="images/ico_play.png" alt="재생 버튼" />
+                        </div>
+                      </div>
+                      <img class="video-img" src="images/nation_img5.png" alt="카자흐스탄 영상" />
+                      <!-- <figcaption>
+                        <span>▪ 카자흐스탄</span> 한국 전통 문화와 현대 문화와의 조우 Tradition & New Thing
+                      </figcaption> -->
+                    </a>
+                  </div>
+                  <div class="tab-pane video-item" id="nation6">
+                    <a href="#" target="_blank">
+                      <div class="video-hover">
+                        <div class="video-hover-content">
+                          <img src="images/ico_play.png" alt="재생 버튼" />
+                        </div>
+                      </div>
+                      <img class="video-img" src="images/nation_img6.png" alt="벨기에 영상" />
+                      <!-- <figcaption>
+                        <span>▪ 벨기에</span> 한국 전통 문화와 현대 문화와의 조우 Tradition & New Thing
+                      </figcaption> -->
+                    </a>
+                  </div>
+                  <div class="tab-pane video-item" id="nation7">
+                    <a href="#" target="_blank">
+                      <div class="video-hover">
+                        <div class="video-hover-content">
+                          <img src="images/ico_play.png" alt="재생 버튼" />
+                        </div>
+                      </div>
+                      <img class="video-img" src="images/nation_img7.png" alt="프랑스 영상" />
+                      <!-- <figcaption>
+                        <span>▪ 프랑스</span> 한국 전통 문화와 현대 문화와의 조우 Tradition & New Thing
+                      </figcaption> -->
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="institution" id="institution">
+          <div class="inner">
+            <div class="">
+              <div class="text-center fade-down fade">
+                <h2 class="section-heading font-weight-bold mb-5">소개하다 ; K-Heritage</h2>
+                <h3 class="section-subheading font-weight-bold">한국대표문화기관을 통해 한국의 전통문화를 여러분께 소개합니다.</h3>
+                <p class="section-subtxt">온라인으로 만나는 한국전통문화, 함께 만나요!</p>
+              </div>
+              <div class="row institution-row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="card fade-top fade">
+                        <div class="video-item">
+                          <a href="#" onclick="alert('준비중'); return false;" target="_blank">
+                            <div class="video-hover">
+                              <div class="video-hover-content">
+                                <img src="images/ico_play.png" alt="재생 버튼" />
+                              </div>
+                            </div>
+                            <img class="video-img" src="images/institution_img01.jpg" alt="국립중앙박물관" />
+                          </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="card-title">국립중앙박물관</div>
+                            <div class="card-text">조선 사람들의 꿈, 평생도</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="card fade-top fade">
+                        <div class="video-item">
+                          <a href="#" onclick="alert('준비중'); return false;" target="_blank">
+                            <div class="video-hover">
+                              <div class="video-hover-content">
+                                <img src="images/ico_play.png" alt="재생 버튼" />
+                              </div>
+                            </div>
+                            <img class="video-img" src="images/institution_img02.jpg" alt="국립민속국악원" />
+                          </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="card-title">국립민속국악원</div>
+                            <div class="card-text">Oh! Pansori 판소리 보고 즐기고 배우자!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="card fade-top fade">
+                        <div class="video-item">
+                          <a href="#" onclick="alert('준비중'); return false;" target="_blank">
+                            <div class="video-hover">
+                              <div class="video-hover-content">
+                                <img src="images/ico_play.png" alt="재생 버튼" />
+                              </div>
+                            </div>
+                            <img class="video-img" src="images/institution_img03.jpg" alt="국립아시아문화전당" />
+                          </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="card-title">국립아시아문화전당</div>
+                            <div class="card-text">고성오광대 탈놀이 <비비런> 메타버스 체험 공연</div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="bg"></div>
+          </div>
+        </section>
+
+        <section id="sns" class="sns">
+          <div class="">
+            <div class="row">
+              <div class="promotion fade-right fade">
+                <div class="promotion01 video-item">
+                    <a href="#"><img class="video-img" src="images/promotion_img01.jpg" alt="해외문화홍보원" /></a>            
+                </div>
+                <div class="promotion02 video-item">
+                  <a href="#"><img class="video-img" src="images/promotion_img02.jpg" alt="KOREA.net" /></a>            
+                </div>
+              </div>
+              
+              <div class="btn-sns-area fade-left fade">
+                <div class="btn-sns01 btn-sns">
+                  <a class="btn btn-primary" href="#">
+                    <i><img src="images/ico_youtube.png" alt="" /></i>
+                    YouTube
+                  </a>  
+                  <a class="btn btn-warning" href="#">
+                    <i><img src="images/ico_intagram.png" alt="" /></i>
+                    Instagram
+                  </a>
+                  <a class="btn btn-primary mb-0" href="#">
+                    <i><img src="images/ico_facebook.png" alt="" /></i>
+                    Facebook
+                  </a>      
+                </div>
+                <div class="btn-sns02 btn-sns">
+                  <a class="btn btn-warning" href="#">
+                    <i><img src="images/ico_flickr.png" alt="" /></i>
+                    Flickr
+                  </a>  
+                  <a class="btn btn-primary" href="#">
+                    <i><img src="images/ico_blog.png" alt="" /></i>
+                    Blog
+                  </a>
+                  <a class="btn btn-warning mb-0" href="#">
+                    <i><img src="images/ico_blogger.png" alt="" /></i>
+                    Blogger
+                  </a>      
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer>        
+        <div class="row">
+          <img src="images/logo_footer.png" alt="korea contents week" />
+          <p class="footer-copyright pl-5">세종특별자치시 갈매로 408 정부세종청사 14-1동 해외문화홍보원 KOREA CONTENTS WEEK</p>
+        </div>
+      </footer>
+    </div>
+    <div class="dimmed"></div>
+    <script src="js/ui.js"></script>
+
+    <!-- TOP 버튼 -->
+    <a href="#home" class="scrollup"></a>
+  </body>
+</html>
